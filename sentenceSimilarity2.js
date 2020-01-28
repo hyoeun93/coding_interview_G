@@ -2,5 +2,6 @@
 //and a list of similar word pairs pairs, determine of two sentences are similar.
 
 var areSentencesSimilarTwo = function(words1, words2, pairs) {
+    if (words1.length !== words2.length) return false;
     
 }
